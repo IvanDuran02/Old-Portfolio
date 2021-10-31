@@ -1,0 +1,49 @@
+.Container {
+    background-image: url(../assets/4kbackground.jpg);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    border-radius: 20px;
+    margin: 50px 50px 50px 50px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+
+.Title {
+    color: white;
+    margin: 10px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.page__links {
+    color: cyan;
+    display: flex;
+    margin-top: -10px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.link__Projects {
+    margin-right: 20px;
+}
+
+.link__About {
+    margin-right: 20px;
+}
+
+.link__Projects:hover{
+    color: white;
+    cursor: pointer;
+}
+.link__About:hover {
+    color: white;
+    cursor: pointer;
+}
+.link__Contact:hover{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.container {
+    background-image: url(../assets/backgroundsimple.jpg);
+    background-size: auto;
+    display: grid;
+    height: 100vh;
+    color: white;
+    text-decoration: none;
+}

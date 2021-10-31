@@ -1,0 +1,99 @@
+body {
+    background-image: url(../assets/4kbackground.jpg);
+    background-size: auto;
+    display: grid;
+    height: 100vh;
+}
+
+.header {
+    color: white;
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1 {
+    background-image: url(../assets/discord.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    min-width: 300px;
+    min-height: 200px;
+    padding-left: 20px;
+    margin: 10px 50px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 5px 5px 0px 0px cyan;
+}
+
+.card2 {
+    background-image: url(../assets/fillerimg.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    min-width: 300px;
+    min-height: 200px;
+    padding-left: 20px;
+    margin: 10px 50px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card2:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 5px 5px 0px 0px violet;
+}
+
+.card3 {
+    background-image: url(../assets/amazonimg.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    min-width: 300px;
+    min-height: 200px;
+    padding-left: 20px;
+    margin: 10px 50px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card3:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 5px 5px 0px 0px darkgray;
+}
+
+.read__btn {
+    display: grid;
+    place-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn {
+    background-image: url(../assets/4kbackground.jpg);
+    background-size: cover;
+    color: black;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+	text-transform: uppercase;
+    border: none;
+    outline-width: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+btn:hover {
+    transition: box-shadow 0.3s ease-in-out;  
+    color: black; 
+}
